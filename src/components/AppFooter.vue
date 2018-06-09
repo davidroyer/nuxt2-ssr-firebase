@@ -2,10 +2,7 @@
   <footer>
     <div class="mui-container mui--text-center">
       <div class="footer-flex-item">
-        <strong>Regular nuxt import test</strong>
-      </div>
-      <div class="footer-flex-item">
-        <strong>Nuxt2SSRFire: </strong>Made by <a href="https://www.davidroyer.me" target="_blank">David Royer</a>
+        Made by <a href="https://www.davidroyer.me" target="_blank">David Royer</a>
       </div>
       <div class="footer-flex-item">
         Check out this project's <a href="https://github.com/davidroyer/nuxt2-ssr-firebase" target="_blank">Github Repo</a>
