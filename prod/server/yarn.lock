@@ -4199,7 +4199,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt-edge@^2.0.0-25452542.7f9d16c:
+nuxt-edge@^2.0.0-25471736.3b2ed03:
   version "2.0.0-25471736.3b2ed03"
   resolved "https://registry.yarnpkg.com/nuxt-edge/-/nuxt-edge-2.0.0-25471736.3b2ed03.tgz#48d4ee5f2688360ac5ac0bf33c94ad8a6624cc6d"
   dependencies:

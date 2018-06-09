@@ -9,7 +9,7 @@
     "firebase-admin": "^5.12.1",
     "firebase-functions": "^1.0.3",
     "lodash": "^4.17.10",
-    "nuxt-edge": "^2.0.0-25452542.7f9d16c",
+    "nuxt-edge": "^2.0.0-25471736.3b2ed03",
     "regenerator-runtime": "^0.11.1",
     "source-map-support": "^0.4.15",
     "util.promisify": "^1.0.0",

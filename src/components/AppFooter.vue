@@ -2,7 +2,7 @@
   <footer>
     <div class="mui-container mui--text-center">
       <div class="footer-flex-item">
-        <strong>PWA Test 2</strong>
+        <strong>Regular nuxt import test</strong>
       </div>
       <div class="footer-flex-item">
         <strong>Nuxt2SSRFire: </strong>Made by <a href="https://www.davidroyer.me" target="_blank">David Royer</a>

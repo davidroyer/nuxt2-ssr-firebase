@@ -1,5 +1,5 @@
 const functions = require('firebase-functions');
-const { Nuxt } = require('nuxt-edge/dist/nuxt-legacy');
+const { Nuxt } = require('nuxt-edge');
 const express = require('express');
 const app = express();
 const config = {
