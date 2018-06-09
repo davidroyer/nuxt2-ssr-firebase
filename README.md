@@ -1,7 +1,8 @@
-# Nuxt.js Universal App with SSR via Firebase Functions and Firebase Hosting
+# Nuxt.js Universal App with SSR via Firebase Functions and Firebase Hosting - ***Nuxt 2 Version*** 
+
 Host a Nuxt Universal app or site by combining Nuxt.js with Firebase Cloud Functions and Hosting.
 
-[Live Preview](https://nuxtssrfire.firebaseapp.com)
+[Live Preview](https://nuxt2ssrfire.firebaseapp.com)
 
 ---
 
