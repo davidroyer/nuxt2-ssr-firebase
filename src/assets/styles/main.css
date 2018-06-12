@@ -88,3 +88,7 @@ span.render-result {
     margin: 0 .5em;
   }
 }
+
+.mui-container .mui-btn--primary {
+  background: rgb(0, 112, 185);
+}

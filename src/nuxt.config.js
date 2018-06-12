@@ -4,7 +4,8 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: 'Nuxtjs SSR on Firebase Functions',
+    title: 'Nuxt.js 2 - SSR on Firebase Functions',
+
     meta: [{
         charset: 'utf-8'
       },
@@ -13,9 +14,33 @@ module.exports = {
         content: 'width=device-width, initial-scale=1'
       },
       {
+        property: 'og:title',
+        content: 'Nuxt.js 2 - SSR on Firebase Functions'
+      },
+      {
+        property: 'og:description',
+        content: 'Nuxt.js 2 app with SSR using Firebase Cloud Functions and Firebase Hosting. Made by David Royer'
+      },
+      {
+        property: 'og:image',
+        content: 'https://nuxt2ssrfire.firebaseapp.com/site.jpg'
+      },
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        property: 'twitter:site',
+        content: '@davidroyer_'
+      },
+      {
+        property: 'twitter:creator',
+        content: '@davidroyer_'
+      },
+      {
         hid: 'description',
         name: 'description',
-        content: 'Nuxt.js project'
+        content: 'Nuxt.js 2 app with SSR using Firebase Cloud Functions and Firebase Hosting. Made by David Royer'
       }
     ],
     link: [{

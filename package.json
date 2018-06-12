@@ -1,7 +1,7 @@
 {
   "name": "Nuxt-SSR-Firebase",
   "version": "0.2.0",
-  "description": "Host Nuxt.js SSR app on Firebase Cloud Functions with Firebase Dynamic Hosting.",
+  "description": "Nuxt.js 2 app with SSR using Firebase Cloud Functions and Firebase Hosting.",
   "license": "MIT",
   "author": "David Royer",
   "repository": "https://github.com/davidroyer/nuxt-ssr-firebase",

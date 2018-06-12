@@ -2,10 +2,10 @@
   <footer>
     <div class="mui-container mui--text-center">
       <div class="footer-flex-item">
-        Made by <a href="https://www.davidroyer.me" target="_blank">David Royer</a>
+        Made by <a href="https://www.davidroyer.me" target="_blank" rel="noopener">David Royer</a>
       </div>
       <div class="footer-flex-item">
-        Check out this project's <a href="https://github.com/davidroyer/nuxt2-ssr-firebase" target="_blank">Github Repo</a>
+        Check out this project's <a href="https://github.com/davidroyer/nuxt2-ssr-firebase" target="_blank" rel="noopener">Github Repo</a>
       </div>
     </div>
   </footer>
@@ -17,7 +17,7 @@
   }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
   footer {
     box-sizing: border-box;
     background-color: #eee;
@@ -35,5 +35,9 @@
 
   .footer-flex-item {
     margin: .5em;
+  }
+
+  .footer-flex-item a {
+    color: rgb(0, 112, 185);
   }
 </style>
