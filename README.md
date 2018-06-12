@@ -1,4 +1,4 @@
-# Nuxt.js Universal App with SSR via Firebase Functions and Firebase Hosting - ***Nuxt 2 Version*** 
+# Nuxt.js Universal App with SSR via Firebase Functions and Firebase Hosting - ***Nuxt 2 Version***
 
 Host a Nuxt Universal app or site by combining Nuxt.js with Firebase Cloud Functions and Hosting.
 
@@ -9,7 +9,9 @@ Host a Nuxt Universal app or site by combining Nuxt.js with Firebase Cloud Funct
 ## Pre-Setup: Before Installing Any Dependencies
 1. Obtain a Firebase Project ID to use for this project. [See Overiew Here](#firebase-project-setup)
 
-2. Inside this directory, locate the file `.setup-firebaserc` and replace the text `your-project-id` with your Firebase Project ID.
+2. Inside this directory, locate the file `.firebaserc.sample`, and do the following:
+  - Rename this file to `.firebaserc`
+  - Inside this file, replace `your-project-id` with your Firebase Project ID.
 ---
 
 ## Setup
@@ -18,23 +20,47 @@ We will now get everything setup and deployed in 3 commands:
 
   **Note:** _All of these commands are ran from the root directory_
 
-1. Install Dependencies in all necessary directories and creates `.firebaserc` from from `.setup-firebaserc` by using a `postinstall hook`
+1. Install Dependencies in all necessary directories in 1 command
 ```bash
-yarn
+yarn setup
+# OR
+npm run setup
 ```
 
 2. Build The Project
 ```bash
 yarn build
+# OR
+npm run build
 ```
 
 3. Deploy To Firebase
 ```bash
 yarn deploy
+# OR
+npm run deploy
 ```
 
 ***Your site should now be live!***
 
+---
+
+## Development
+There are 2 development options.
+
+### 1. _Without_ Firebase Functions
+This will be like a normal Nuxt development experienced.
+
+```bash
+yarn dev
+```
+
+### 2. _With_ Firebase Functions
+This uses Firebase's local development tools to test our project
+
+```bash
+yarn serve
+```
 ---
 
 ### Firebase Project Setup
