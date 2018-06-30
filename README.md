@@ -3,7 +3,6 @@
 Host a Nuxt Universal app or site by combining Nuxt.js with Firebase Cloud Functions and Hosting.
 
 [Live Preview](https://nuxt2ssrfire.firebaseapp.com)
-https://nuxt2ssrfire.firebaseapp.com/
 
 ---
 
