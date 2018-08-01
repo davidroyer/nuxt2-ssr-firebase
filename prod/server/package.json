@@ -2,18 +2,14 @@
   "name": "functions",
   "description": "Nuxt-SSR-Firebase: Nuxt.js with Firebase Functions Production Setup",
   "dependencies": {
-    "core-js": "^2.5.7",
-    "debug": "^3.1.0",
     "express": "^4.15.3",
-    "firebase-admin": "^5.12.1",
-    "firebase-functions": "^1.0.3",
+    "firebase-admin": "~5.13.1",
+    "firebase-functions": "^2.0.0",
     "lodash": "^4.17.10",
-    "nuxt-edge": "^2.0.0-25471736.3b2ed03",
-    "regenerator-runtime": "^0.11.1",
-    "vue": "^2.5.16",
-    "vue-meta": "^1.5.0",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "nuxt-edge": "^2.0.0-25471736.3b2ed03"
+  },
+  "engines": {
+    "node": "8"
   },
   "private": true
 }
