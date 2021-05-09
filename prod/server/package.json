@@ -5,7 +5,7 @@
     "express": "^4.15.3",
     "firebase-admin": "~5.13.1",
     "firebase-functions": "^2.0.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "nuxt-edge": "^2.0.0-25471736.3b2ed03"
   },
   "engines": {
