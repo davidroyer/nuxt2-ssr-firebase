@@ -2,7 +2,7 @@
   "name": "functions",
   "description": "Nuxt-SSR-Firebase: Nuxt.js with Firebase Functions Production Setup",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "firebase-admin": "~5.13.1",
     "firebase-functions": "^2.0.0",
     "lodash": "^4.17.10",
